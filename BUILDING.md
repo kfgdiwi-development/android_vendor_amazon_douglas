@@ -13,14 +13,14 @@ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
 source ~/.profile
 ```
-#### 2. Download the Lineage OS 13.0 source code
+#### 2. Download the Lineage OS 14.1 source code
 
 ```bash
 # Create the source directory and cd to it
-mkdir -p ~/android/lineage-13.0
+mkdir -p ~/android/lineage-14.1
 cd <source-folder>
 # Initialize the repo init
-repo init -u git://github.com/LineageOS/android.git -b cm-13.0
+repo init -u git://github.com/LineageOS/android.git -b cm-14.1
 # This will take a bit depending of your internet connection
 repo sync
 ```
@@ -28,11 +28,11 @@ repo sync
 #### 3. Clone douglas proprietary repositories
 ```bash
 # Vendor Tree
-git clone https://github.com/douglas-development/android_vendor_amazon_douglas.git -b cm-13.0 vendor/amazon/douglas
+git clone https://github.com/douglas-development/android_vendor_amazon_douglas.git -b cm-14.1 vendor/amazon/douglas
 # Device Tree
-git clone https://github.com/douglas-development/android_device_amazon_douglas.git -b cm-13.0 device/amazon/douglas
+git clone https://github.com/douglas-development/android_device_amazon_douglas.git -b cm-14.1 device/amazon/douglas
 # Kernel Tree
-git clone https://github.com/R0rt1z2/android_kernel_amazon_douglas -b cm-13.0 kernel/amazon/douglas
+git clone https://github.com/douglas-development/android_kernel_amazon_douglas -b cm-14.1 kernel/amazon/douglas
 ```
 
 #### 4. Start the build
