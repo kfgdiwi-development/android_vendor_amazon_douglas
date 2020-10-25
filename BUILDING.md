@@ -35,7 +35,12 @@ git clone https://github.com/douglas-development/android_device_amazon_douglas.g
 git clone https://github.com/douglas-development/android_kernel_amazon_douglas -b cm-14.1 kernel/amazon/douglas
 ```
 
-#### 4. Start the build
+#### 4. Apply the needed patches
+```bash
+sh device/amazon/douglas/patches/install.sh
+```
+
+#### 5. Start the build
 ```bash
 # Source the envsetup
 source ./build/envsetup.sh
@@ -46,4 +51,3 @@ mka bacon -j$(nproc --all)
 ```
 
 If all went correctly, you should locate your ROM.zip at ``out/target/product/douglas/lineage-XX.X-douglas-XXXXXXXX.zip``
-
