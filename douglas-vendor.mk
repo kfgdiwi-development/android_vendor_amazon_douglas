@@ -20,7 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/douglas/proprietary/lib/libcam.camadapter.so:system/lib/libcam.camadapter.so \
     vendor/amazon/douglas/proprietary/lib/libcam.campipe.so:system/lib/libcam.campipe.so \
     vendor/amazon/douglas/proprietary/lib/libcam.camshot.so:system/lib/libcam.camshot.so \
-    vendor/amazon/douglas/proprietary/lib/libcam.client.so:system/lib/libcam.client.so \
+    vendor/amazon/douglas/proprietary/lib/libcam1client.so:system/lib/libcam1client.so \
     vendor/amazon/douglas/proprietary/lib/libcam.device1.so:system/lib/libcam.device1.so \
     vendor/amazon/douglas/proprietary/lib/libcam.device3.so:system/lib/libcam.device3.so \
     vendor/amazon/douglas/proprietary/lib/libcam.exif.so:system/lib/libcam.exif.so \
@@ -61,7 +61,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/douglas/proprietary/lib64/libcam.camadapter.so:system/lib64/libcam.camadapter.so \
     vendor/amazon/douglas/proprietary/lib64/libcam.campipe.so:system/lib64/libcam.campipe.so \
     vendor/amazon/douglas/proprietary/lib64/libcam.camshot.so:system/lib64/libcam.camshot.so \
-    vendor/amazon/douglas/proprietary/lib64/libcam.client.so:system/lib64/libcam.client.so \
+    vendor/amazon/douglas/proprietary/lib64/libcam1client.so:system/lib64/libcam1client.so \
     vendor/amazon/douglas/proprietary/lib64/libcam.device1.so:system/lib64/libcam.device1.so \
     vendor/amazon/douglas/proprietary/lib64/libcam.device3.so:system/lib64/libcam.device3.so \
     vendor/amazon/douglas/proprietary/lib64/libcam.exif.so:system/lib64/libcam.exif.so \

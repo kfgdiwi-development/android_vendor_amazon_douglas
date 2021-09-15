@@ -19,6 +19,17 @@ LOCAL_PATH := $(call my-dir)
 ifneq ($(filter douglas,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libcam1client
+LOCAL_MODULE_OWNER := amazon
+LOCAL_SRC_FILES_64 := proprietary/lib64/libcam1client.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libcam1client.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libcameracustom
 LOCAL_MODULE_OWNER := amazon
 LOCAL_SRC_FILES_64 := proprietary/lib64/libcameracustom.so
