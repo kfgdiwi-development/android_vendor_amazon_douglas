@@ -29,6 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/douglas/proprietary/lib/libcam.iopipe.so:system/lib/libcam.iopipe.so \
     vendor/amazon/douglas/proprietary/lib/libcam.iopipe_FrmB.so:system/lib/libcam.iopipe_FrmB.so \
     vendor/amazon/douglas/proprietary/lib/libcam.metadata.so:system/lib/libcam.metadata.so \
+    vendor/amazon/douglas/proprietary/lib/libcam.halsensor.so:system/lib/libcam.halsensor.so \
     vendor/amazon/douglas/proprietary/lib/libcam.metadataprovider.so:system/lib/libcam.metadataprovider.so \
     vendor/amazon/douglas/proprietary/lib/libcam.paramsmgr.so:system/lib/libcam.paramsmgr.so \
     vendor/amazon/douglas/proprietary/lib/libcam.utils.sensorlistener.so:system/lib/libcam.utils.sensorlistener.so \
@@ -69,6 +70,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/douglas/proprietary/lib64/libcam.iopipe.so:system/lib64/libcam.iopipe.so \
     vendor/amazon/douglas/proprietary/lib64/libcam.iopipe_FrmB.so:system/lib64/libcam.iopipe_FrmB.so \
     vendor/amazon/douglas/proprietary/lib64/libcam.metadata.so:system/lib64/libcam.metadata.so \
+    vendor/amazon/douglas/proprietary/lib64/libcam.halsensor.so:system/lib64/libcam.halsensor.so \
     vendor/amazon/douglas/proprietary/lib64/libcam.metadataprovider.so:system/lib64/libcam.metadataprovider.so \
     vendor/amazon/douglas/proprietary/lib64/libcam.paramsmgr.so:system/lib64/libcam.paramsmgr.so \
     vendor/amazon/douglas/proprietary/lib64/libcam.utils.sensorlistener.so:system/lib64/libcam.utils.sensorlistener.so \
@@ -110,5 +112,4 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/douglas/proprietary/vendor/smartvolume/douglas/wired_headset.csv:system/vendor/smartvolume/douglas/wired_headset.csv
 
 PRODUCT_PACKAGES += \
-    libcam2halsensor \
     libcameracustom
